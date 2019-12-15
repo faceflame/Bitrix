@@ -8,7 +8,7 @@ import utilities.Driver;
 
 import javax.security.auth.login.Configuration;
 
-public class LoginPage {
+public class LoginPage extends PageBase{
 
     public LoginPage (){
         PageFactory.initElements(Driver.get(), this);

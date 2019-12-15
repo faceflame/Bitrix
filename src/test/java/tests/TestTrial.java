@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import pages.LoginPage;
 import utilities.Driver;
 
-public class LoginTest extends TestBase{
+public class TestTrial extends TestBase{
 
     @Test(description = "Login Test")
     public void test1(){
